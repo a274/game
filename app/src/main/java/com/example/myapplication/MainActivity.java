@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Unit alexey = new Unit("Alexey Grigorevich", 200);
         alexey.printInfo(debugText);
         alexey.letsGO(debugText);
+
         Robot Shwarzenegger = new Robot("Arnold Shwarzenegger", 1000, 400);
         Shwarzenegger.printInfo(debugText);
         Shwarzenegger.letsGO(debugText);
