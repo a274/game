@@ -19,5 +19,13 @@ public class MainActivity extends AppCompatActivity {
         Robot Shwarzenegger = new Robot("Arnold Shwarzenegger", 1000, 400);
         Shwarzenegger.printInfo(debugText);
         Shwarzenegger.letsGO(debugText);
+
+        Wizard Dambldor = new Wizard("Dambldor", 20, 10000);
+        Dambldor.printInfo(debugText);
+        Dambldor.letsGO(debugText);
+
+        NPC npc = new NPC(0, "ожидает");
+        npc.printInfo(debugText);
+        npc.letsGO(debugText);
     }
 }

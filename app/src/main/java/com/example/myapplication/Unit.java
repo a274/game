@@ -2,8 +2,8 @@ package com.example.myapplication;
 
 import android.widget.TextView;
 
-public class Unit {
-    public String getName() {
+public class Unit implements Printable, Runable{
+    public final String getName() {
         return name;
     }
 
